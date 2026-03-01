@@ -2,25 +2,47 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seni seviyorum aşkım</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <title>Seni Seviyorum Aşkım</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="container" aria-label="Aşk mesajı">
-    <div class="phrase" id="phrase">
-      <span class="txt" id="leftText">Seni</span>
+<div class="container">
+  <svg class="svg-container" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+    <line class="line line--left" x1="10" y1="17" x2="10" y2="183"></line>
+    <line class="line line--rght" x1="490" y1="17" x2="490" y2="183"></line>
+    <g>
+      <text class="lttr lttr--S" x="40" y="100">S</text>
+      <text class="lttr lttr--E" x="70" y="100">E</text>
+      <text class="lttr lttr--N" x="100" y="100">N</text>
+      <text class="lttr lttr--I" x="130" y="100">İ</text>
+      <text class="lttr lttr--S2" x="170" y="100">S</text>
+      <text class="lttr lttr--E2" x="200" y="100">E</text>
+      <text class="lttr lttr--V" x="230" y="100">V</text>
+      <text class="lttr lttr--I2" x="260" y="100">İ</text>
+      <text class="lttr lttr--Y" x="290" y="100">Y</text>
+      <text class="lttr lttr--O" x="320" y="100">O</text>
+      <text class="lttr lttr--R" x="350" y="100">R</text>
+      <text class="lttr lttr--U" x="380" y="100">U</text>
+      <text class="lttr lttr--M" x="410" y="100">M</text>
+    </g>
+  </svg>
+  <div class="mo-container"></div>
+</div>
 
-      <span class="mid">
-        <span class="txt word" id="wordText">seviyorum</span>
-        <span class="heart" id="heart" aria-hidden="true">❤</span>
-      </span>
+<div class="names">
+  <span class="left-name">Alp</span>
+  <span class="right-name">Simge</span>
+</div>
 
-      <span class="txt" id="rightText">Simge</span>
-    </div>
-  </div>
+<audio class="blup" style="display: none">
+  <source src="https://www.freesound.org/data/previews/265/265115_4373976-lq.mp3" type="audio/ogg">
+</audio>
+<audio class="blop" style="display: none">
+  <source src="https://www.freesound.org/data/previews/265/265115_4373976-lq.mp3" type="audio/ogg">
+</audio>
+<div class="sound"></div>
 
-  <script src="./script.js"></script>
+<script src='//cdn.jsdelivr.net/mojs/latest/mo.min.js'></script>
+<script src="./script.js"></script>
 </body>
 </html>
